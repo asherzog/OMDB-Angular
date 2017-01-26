@@ -1,0 +1,23 @@
+{
+  "name": "omdb-angular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asherzog/OMDB-Angular.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asherzog/OMDB-Angular/issues"
+  },
+  "homepage": "https://github.com/asherzog/OMDB-Angular#readme",
+  "dependencies": {
+    "angular": "^1.6.1"
+  }
+}
