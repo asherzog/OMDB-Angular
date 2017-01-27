@@ -5,13 +5,17 @@
     .module('app')
     .controller('searchController', searchController);
 
-  function searchController() {
+  function searchController(searchService) {
     const vm = this;
     vm.title = 'OMDB Angular';
     vm.searchDB = searchDB;
 
     function searchDB() {
-      console.log(vm.searchTerm);
+      searchService.get(vm.searchTerm)
+        .then(response => {
+          vm.movies = response.data.Search;
+          console.log(vm.movies);
+        });
     }
 
   };
