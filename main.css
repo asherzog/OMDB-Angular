@@ -2,4 +2,19 @@
   width: 48px;
   margin: 16px;
   border-radius: 48px;
-  border: 1px solid #ddd; }
+  border: 1px solid #ddd;
+}
+
+#avatar {
+  width: 10em;
+  height: auto;
+  margin: 1em;
+  margin-left: 5em;
+  border-radius: 10%;
+}
+
+.btn1 {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  background-color: green;
+  margin-right: 10em;
+}
