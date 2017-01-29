@@ -21,16 +21,8 @@
 
     <md-list>
 
-      <md-list-item class="md-3-line" ng-repeat="movie in $ctrl.movies">
-        <img ng-src="{{movie.Poster}}" alt="{{movie.Title}}" id="avatar">
-        <div class="md-list-item-text">
-          <h1>{{movie.Title}}</h1>
-          <h3>{{movie.Year}}</h3>
-          <div layout="row" layout-align="end center">
-            <md-button class="btn1">more</md-button>
-          </div>
-        </div>
-        <md-divider inset></md-divider>
+      <md-list-item ng-repeat="movie in $ctrl.movies">
+        <movie movie="movie"></movie>
       </md-list-item>
 
     </md-list>

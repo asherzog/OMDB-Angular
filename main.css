@@ -6,7 +6,7 @@
 }
 
 #avatar {
-  width: 10em;
+  max-width: 15em;
   height: auto;
   margin: 1em;
   margin-left: 5em;
@@ -15,6 +15,6 @@
 
 .btn1 {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-  background-color: green;
-  margin-right: 10em;
+  background-color: #3F51B5;
+  color: white;
 }
