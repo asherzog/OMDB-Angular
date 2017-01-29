@@ -1,11 +1,11 @@
-<section layout="row">
-  <img ng-src="{{$ctrl.movie.Poster}}" alt="{{$ctrl.movie.Title}}" id="avatar" flex="20">
-  <div class="md-list-item-text" flex="70" layout="column">
-    <h1 layout-align="end end">{{$ctrl.movie.Title}}</h1>
-    <h3 layout-align="center center">{{$ctrl.movie.Year}}</h3>
-    <div layout="row" layout-align="start center" flex>
-      <md-button class="btn1">more</md-button>
-    </div>
+<img ng-src="{{$ctrl.movie.Poster}}" alt="{{$ctrl.movie.Title}}" id="avatar" flex="20">
+<div class="md-list-item-text" flex-offset="25" flex>
+  <div layout-align="center center">
+    <h1>{{$ctrl.movie.Title}}</h1>
+    <h3>{{$ctrl.movie.Year}}</h3>
   </div>
-  <md-divider inset></md-divider>
-</section>
+  <div layout="row" layout-align="start center">
+    <md-button class="btn1">more</md-button>
+  </div>
+</div>
+<md-divider inset></md-divider>
