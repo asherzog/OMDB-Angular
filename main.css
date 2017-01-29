@@ -9,7 +9,6 @@
   max-width: 15em;
   height: auto;
   margin: 1em;
-  margin-left: 5em;
   border-radius: 10%;
 }
 
@@ -17,4 +16,15 @@
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   background-color: #3F51B5;
   color: white;
+}
+
+.green {
+  color: green;
+}
+
+.orange {
+  color: orange;
+}
+.red {
+  color: red;
 }

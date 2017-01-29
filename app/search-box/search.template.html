@@ -21,8 +21,8 @@
 
     <md-list>
 
-      <md-list-item class="md-3-line" ng-repeat="movie in $ctrl.movies">
-        <movie movie="movie" layout="row"></movie>
+      <md-list-item class="md-3-line" ng-repeat="movie in $ctrl.movies" layout="row" layout-align="start start">
+        <movie movie="movie" layout="row" layout-fill layout-margin layout-padding></movie>
       </md-list-item>
 
     </md-list>
