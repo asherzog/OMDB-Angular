@@ -1,0 +1,16 @@
+<img ng-src="{{$ctrl.movie.Poster}}" alt="{{$ctrl.movie.Title}}" id="avatar">
+<div class="md-list-item-text" layout="row" layout-fill>
+  <div layout="column" layout-fill>
+    <h1>{{$ctrl.movie.Title}}</h1>
+    <h2>{{$ctrl.movie.Year}}</h2>
+  </div>
+  <div ng-if="$ctrl.more" layout="row">
+    <h3>IMDB: </h3>
+    <h1 ng-class="$ctrl.classes($ctrl.movie.imdbRating)">{{$ctrl.movie.imdbRating}}</h1>
+  </div>
+  <div layout="column" layout-align="center center">
+    <md-button class="btn1" ng-click="$ctrl.viewMovie($ctrl.movie)">{{$ctrl.btn}}</md-button>
+  </div>
+</div>
+<view-more ng-if="$ctrl.more" movie="$ctrl.movie" flex-offset="10" layout="column" layout-align="center center"></view-more>
+<md-divider inset></md-divider>

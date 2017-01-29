@@ -14,7 +14,6 @@
       searchService.get(vm.searchTerm)
         .then(response => {
           vm.movies = response.data.Search;
-          console.log(vm.movies);
         });
     }
 
